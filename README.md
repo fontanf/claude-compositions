@@ -11,7 +11,8 @@ le fichier MIDI, la source LilyPond et les scripts qui permettent de tout régé
 | Pièce | Effectif | Durée | Partition | Audio |
 |---|---|---|---|---|
 | [Fugue en do mineur](fugue-do-mineur/) | clavier (3 voix) | 1′40 | [PDF](fugue-do-mineur/fugue.pdf) | [MP3](fugue-do-mineur/fugue.mp3) |
-| [Mistral](mistral/) | orchestre à plectres : mandolines 1 et 2, mandole, guitare | 2′40 | [conducteur](mistral/plectres.pdf) · parties : [Md. 1](mistral/plectres-mandolineI.pdf), [Md. 2](mistral/plectres-mandolineII.pdf), [mandole](mistral/plectres-mandole.pdf), [guitare](mistral/plectres-guitare.pdf) | [MP3](mistral/plectres.mp3) |
+| [Mistral](mistral/) | orchestre à plectres : mandolines 1 et 2, mandole ténor, guitare | 2′40 | [conducteur](mistral/plectres.pdf) · parties : [Md. 1](mistral/plectres-mandolineI.pdf), [Md. 2](mistral/plectres-mandolineII.pdf), [mandole](mistral/plectres-mandole.pdf), [guitare](mistral/plectres-guitare.pdf) | [MP3](mistral/plectres.mp3) |
+| [Lanternes](lanternes/) | orchestre à plectres : mandolines 1 et 2, mandole ténor, guitare | 3′05 | [conducteur](lanternes/lanternes.pdf) · parties : [Md. 1](lanternes/lanternes-mandolineI.pdf), [Md. 2](lanternes/lanternes-mandolineII.pdf), [mandole](lanternes/lanternes-mandole.pdf), [guitare](lanternes/lanternes-guitare.pdf) | [MP3](lanternes/lanternes.mp3) |
 
 ### Fugue en do mineur
 
@@ -26,6 +27,12 @@ Forme : introduction – A (thème à la mandoline 1) – A′ (thème à la man
 (thème en augmentation, réharmonisé en do lydien) – développement en fugato avec mesures à 7/8 –
 reprise tutti – coda. Écrite pour mandole ténor (accord sol-ré-la-mi), notée en clé de sol et sonnant une octave plus bas.
 Rendu audio : cordes pincées (Karplus-Strong) avec chœurs doublés, trémolo et pupitres de plusieurs musiciens.
+
+### Lanternes
+
+Chaconne en ré mineur : une basse de huit mesures, descente « lamento », répétée sous neuf variations
+(mélodie nostalgique, dialogue piqué, hémioles, ground passé au dessus et réharmonisé, sommet où se
+superposent ground, mélodie et doubles croches), jusqu'à une coda qui se résout en ré majeur.
 
 ## Régénérer une pièce
 
