@@ -24,7 +24,7 @@ de tonique avec tierce picarde. Rendu audio : orgue synthétique (synthèse addi
 Pièce pour orchestre à plectres en mi dorien/éolien, sur un ostinato de guitare en 3+3+2.
 Forme : introduction – A (thème à la mandoline 1) – A′ (thème à la mandole) – B *Meno mosso*
 (thème en augmentation, réharmonisé en do lydien) – développement en fugato avec mesures à 7/8 –
-reprise tutti – coda. La mandole est notée en clé de sol octaviée (accord do-sol-ré-la).
+reprise tutti – coda. Écrite pour mandole ténor (accord sol-ré-la-mi), notée en clé de sol et sonnant une octave plus bas.
 Rendu audio : cordes pincées (Karplus-Strong) avec chœurs doublés, trémolo et pupitres de plusieurs musiciens.
 
 ## Régénérer une pièce

@@ -215,9 +215,12 @@ GT = {
 PARTS = [  # (identifiant, nom, nom court, clé, musique, son)
     ("mandolineI", "Mandoline 1", "Md. 1", "treble", M1, "mandoline"),
     ("mandolineII", "Mandoline 2", "Md. 2", "treble", M2, "mandoline"),
-    ("mandole", "Mandole", "Mdl.", "treble_8", MA, "mandole"),
+    ("mandole", "Mandole ténor", "Mdl.", "treble", MA, "mandole"),
     ("guitare", "Guitare", "Gt.", "treble_8", GT, "guitare"),
 ]
+
+# instruments transpositeurs : son réel par rapport à l'écrit (la mandole ténor sonne une octave plus bas)
+TRANSPOSITION = {"mandole": "c"}
 
 # harmonie prévue (pour la vérification) : mesure -> [(croche de départ, notes permises)]
 _A = {0: "e g b d fis", 1: "g b d a", 2: "e g b d fis", 3: "d fis a e", 4: "e g b d fis",

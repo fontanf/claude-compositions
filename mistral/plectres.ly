@@ -224,8 +224,8 @@ mandolineII = {
   <b' e''>4->\sfz r8 r4. r4
 }
 
-mandole = {
-  \clef "treble_8" \key e \minor
+mandole = \transpose c c' {
+  \clef "treble" \key e \minor
   R1 |
   R1 |
   b1:32\pp~ |
@@ -373,7 +373,7 @@ guitare = {
     \new StaffGroup <<
       \new Staff \with { instrumentName = "Mandoline 1" shortInstrumentName = "Md. 1" midiInstrument = "acoustic guitar (steel)" } << \global \mandolineI >>
       \new Staff \with { instrumentName = "Mandoline 2" shortInstrumentName = "Md. 2" midiInstrument = "acoustic guitar (steel)" } << \global \mandolineII >>
-      \new Staff \with { instrumentName = "Mandole" shortInstrumentName = "Mdl." midiInstrument = "acoustic guitar (steel)" } << \global \mandole >>
+      \new Staff \with { instrumentName = "Mandole ténor" shortInstrumentName = "Mdl." midiInstrument = "acoustic guitar (steel)" } << \global { \transposition c \mandole } >>
       \new Staff \with { instrumentName = "Guitare" shortInstrumentName = "Gt." midiInstrument = "acoustic guitar (nylon)" } << \global \guitare >>
     >>
     \layout { }
@@ -382,7 +382,7 @@ guitare = {
     \new StaffGroup <<
       \new Staff \with { instrumentName = "Mandoline 1" shortInstrumentName = "Md. 1" midiInstrument = "acoustic guitar (steel)" } << \global \mandolineI >>
       \new Staff \with { instrumentName = "Mandoline 2" shortInstrumentName = "Md. 2" midiInstrument = "acoustic guitar (steel)" } << \global \mandolineII >>
-      \new Staff \with { instrumentName = "Mandole" shortInstrumentName = "Mdl." midiInstrument = "acoustic guitar (steel)" } << \global \mandole >>
+      \new Staff \with { instrumentName = "Mandole ténor" shortInstrumentName = "Mdl." midiInstrument = "acoustic guitar (steel)" } << \global { \transposition c \mandole } >>
       \new Staff \with { instrumentName = "Guitare" shortInstrumentName = "Gt." midiInstrument = "acoustic guitar (nylon)" } << \global \guitare >>
     >>
     \midi { }
@@ -409,9 +409,9 @@ guitare = {
 
 \book {
   \bookOutputSuffix "mandole"
-  \header { instrument = "Mandole" }
+  \header { instrument = "Mandole ténor" }
   \score {
-    \new Staff << \global \compressMMRests \mandole >>
+    \new Staff << \global \compressMMRests { \transposition c \mandole } >>
     \layout { }
   }
 }

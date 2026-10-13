@@ -3,7 +3,7 @@ import re
 import sys
 from fractions import Fraction as F
 
-from plectres_data import NBARS, METER, MARKS, TEXTS, BARLINES, PARTS, CHORDS
+from plectres_data import NBARS, METER, MARKS, TEXTS, BARLINES, PARTS, CHORDS, TRANSPOSITION
 
 STEP = {"c": 0, "d": 2, "e": 4, "f": 5, "g": 7, "a": 9, "b": 11}
 TOKEN = re.compile(r"^(<[^>]+>|[a-g](?:is|es)*[',]*|[rRs])(\d+)(\.?)(?:\*(\d+))?(.*)$")
@@ -117,8 +117,18 @@ def global_music():
 
 
 def music_def(ident, music, clef):
+    """les notes sont en hauteurs réelles ; un instrument transpositeur est noté à sa hauteur écrite"""
     bars = " |\n  ".join(music[b] for b in range(1, NBARS + 1))
-    return f"{ident} = {{\n  \\clef \"{clef}\" \\key e \\minor\n  {bars}\n}}\n"
+    body = f"{{\n  \\clef \"{clef}\" \\key e \\minor\n  {bars}\n}}"
+    if ident in TRANSPOSITION:
+        body = f"\\transpose {TRANSPOSITION[ident]} c' {body}"
+    return f"{ident} = {body}\n"
+
+
+def staff_music(ident):
+    if ident in TRANSPOSITION:
+        return f"{{ \\transposition {TRANSPOSITION[ident]} \\{ident} }}"
+    return f"\\{ident}"
 
 
 def write_ly(path):
@@ -139,7 +149,7 @@ def write_ly(path):
     staves = "\n".join(
         f'      \\new Staff \\with {{ instrumentName = "{n}" shortInstrumentName = "{s}" '
         f'midiInstrument = "{"acoustic guitar (nylon)" if i == "guitare" else "acoustic guitar (steel)"}" }}'
-        f" << \\global \\{i} >>"
+        f" << \\global {staff_music(i)} >>"
         for i, n, s, _, _, _ in PARTS)
     score = f"""
 \\book {{
@@ -162,7 +172,7 @@ def write_ly(path):
   \\bookOutputSuffix "{i}"
   \\header {{ instrument = "{n}" }}
   \\score {{
-    \\new Staff << \\global \\compressMMRests \\{i} >>
+    \\new Staff << \\global \\compressMMRests {staff_music(i)} >>
     \\layout {{ }}
   }}
 }}
