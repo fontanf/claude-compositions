@@ -48,7 +48,9 @@ franche) ; une cadence do – ré – mi mineur, très « épique ».
 
 - **Mandole ténor** : accord sol-ré-la-mi, notée en clé de sol et sonnant une octave plus bas
   que l'écrit. Les doubles cordes en trémolo de la coda (mi-si, do-sol, ré-la) tombent bien sous
-  les doigts, ré-la se jouant sur deux cordes à vide.
+  les doigts, ré-la se jouant sur deux cordes à vide. Le registre grave de l'instrument est réservé
+  à la fin : unisson du thème une octave sous la mandoline 2 (m. 66, avec la guitare) et accord
+  final à trois cordes (si-mi-si).
 - **Mandoline 1** : monte jusqu'au mi aigu (12ᵉ case de la corde de mi) dans l'accord final.
 - **Guitare** : notée en clé de sol octaviée ; les accords utilisent des positions ouvertes
   (mi mineur, sol, ré, do, la mineur, si 7).

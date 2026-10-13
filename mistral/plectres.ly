@@ -34,7 +34,7 @@ global = {
   s1
   s1^\markup { \italic "rit." }
   s1 \bar "||"
-  \time 4/4 \tempo "Meno mosso, cantabile" 4 = 80 \mark \default s1
+  \time 4/4 \once \override Score.MetronomeMark.X-offset = #2.5 \tempo "Meno mosso, cantabile" 4 = 80 \mark \default s1
   s1
   s1
   s1
@@ -50,7 +50,7 @@ global = {
   s1
   s1
   s1^\markup { \italic "poco rit." } \bar "||"
-  \time 3,3,2 8/8 \tempo "Tempo I" 4 = 112 \mark \default s1
+  \time 3,3,2 8/8 \once \override Score.MetronomeMark.X-offset = #2.5 \tempo "Tempo I" 4 = 112 \mark \default s1
   s1
   s1
   s1
@@ -291,9 +291,9 @@ mandole = \transpose c c' {
   <c g>1:32 |
   <d a>1:32 |
   <e b>1:32\ff |
-  b8 e'8 fis'8 g'4.-> fis'8 e'8 |
+  b,8 e8 fis8 g4.-> fis8 e8 |
   <c g>4.:32 <d a>4.:32 <d a>4:32 |
-  <e b>4->\sfz r8 r4. r4
+  <b, e b>4->\sfz r8 r4. r4
 }
 
 guitare = {

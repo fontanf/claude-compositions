@@ -22,8 +22,8 @@ MARKS = {
     1: '\\tempo "Con energia" 4 = 112',
     5: "\\mark \\default",
     13: "\\mark \\default",
-    25: '\\tempo "Meno mosso, cantabile" 4 = 80 \\mark \\default',
-    41: '\\tempo "Tempo I" 4 = 112 \\mark \\default',
+    25: '\\once \\override Score.MetronomeMark.X-offset = #2.5 \\tempo "Meno mosso, cantabile" 4 = 80 \\mark \\default',
+    41: '\\once \\override Score.MetronomeMark.X-offset = #2.5 \\tempo "Tempo I" 4 = 112 \\mark \\default',
     53: "\\mark \\default",
     61: "\\mark \\default",
 }
@@ -176,8 +176,8 @@ MA.update({
     57: "g4.:32 b4.:32 a8 g8", 58: "e4.:32 b4.:32 g8 a8",
     59: "c'4.:32 a4.:32 fis8 a8", 60: "g2.:32 r4",
     61: "<e b>1:32\\f", 62: "<e b>1:32", 63: "<c g>1:32", 64: "<d a>1:32",
-    65: "<e b>1:32\\ff", 66: "b8 e'8 fis'8 g'4.-> fis'8 e'8",
-    67: "<c g>4.:32 <d a>4.:32 <d a>4:32", 68: "<e b>4->\\sfz r8 r4. r4",
+    65: "<e b>1:32\\ff", 66: "b,8 e8 fis8 g4.-> fis8 e8",
+    67: "<c g>4.:32 <d a>4.:32 <d a>4:32", 68: "<b, e b>4->\\sfz r8 r4. r4",
 })
 
 # ---------------------------------------------------------------------------
