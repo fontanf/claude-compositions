@@ -86,11 +86,12 @@ G_HI = ("g", "d'", "b", "g'")         # sol majeur : sol sur la 5e corde (case X
 E_MIN = ("e", "g", "b", "e'")         # mi mineur : mi sur la 6e corde (case XIV), sol et si à vide
 E_MIN7 = ("e", "g", "b", "d'")
 BM = ("b,", "fis", "d'", "b")         # si mineur, si grave sur la 6e corde (case IX)
+BM_D = ("d", "fis", "d'", "b")        # si mineur sur sa tierce (évite les octaves parallèles m. 2-3)
 A_HI = ("a,", "cis'", "e'", "a'")     # la majeur en position IX
 SHAPES = {
     1: (D_HI, ("a,", "d", "fis'", "a'")),
     2: (A_HI, ("a,", "a", "cis'", "e'")),
-    3: (BM, G_HI),
+    3: (BM_D, G_HI),
     4: (D_HI, ("d,", "fis'", "a'", "d''")),     # sommet : accord complet en position XIV
     5: (G_HI, E_MIN),
     6: (BM, G_HI),
@@ -153,9 +154,11 @@ for b in range(31, 35):
     V2[b] = "s2."
 
 # ---------------------------------------------------------------- A' (35-50) : la mélodie en trémolo
+# là où les trois premières notes de l'arpège n'ont pas la tierce, le pouce reprend la forme de ré complète
+THUMB_FIX = {(8, 1): D_HI, (16, 1): ("d,", "a,", "fis", "d'")}
 for b in range(1, 17):
     V1[34 + b] = tremolo(MEL[b])
-    V2[34 + b] = thumb(SHAPES[b][0]) + " " + thumb(SHAPES[b][1])
+    V2[34 + b] = " ".join(thumb(THUMB_FIX.get((b, h), SHAPES[b][h])) for h in (0, 1))
 V1[35] = V1[35].replace("fis''32 ", "fis''32\\p ", 1)
 V2[35] = dyn(V2[35], "\\pp")
 
@@ -170,7 +173,7 @@ V1.update({
 })
 V1[51] = dyn(V1[51], "\\p")
 V1[56] = dyn(V1[56], "\\pp")
-V2.update({51: "d,2.", 52: "a,2.", 53: "d,2.", 54: "d,2.", 55: "s2.", 56: "s2."})
+V2.update({51: "d,2.", 52: "d,2.", 53: "d,2.", 54: "d,2.", 55: "s2.", 56: "s2."})
 
 # nuances et soufflets de la voix supérieure au-dessus de la portée, ceux de la basse en dessous
 for _b in V1:
