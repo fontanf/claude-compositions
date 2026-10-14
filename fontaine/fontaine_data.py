@@ -135,7 +135,7 @@ V2[17] = dyn(V2[17], "\\mf")
 V1[21] = dyn(V1[21], "\\f")
 V2[21] = dyn(V2[21], "\\f")
 # le thème, en mineur, joué au pouce dans les basses ; au-dessus, les trois cordes aiguës à vide
-THUMB = ["f4 e8 d4.", "e4 f8 a,4.", "bes,4 c8 d4 e8", "f4. a4.", "g4 f8 e4.", "d4 cis8 d4."]
+THUMB = ["f4 e8 d4.", "e4 f8 a,4.", "b,4 c8 d4 e8", "f4. a4.", "g4 f8 e4.", "d4 cis8 d4."]
 for i in range(6):
     V1[25 + i] = "g16 b16 e'16 b16 g16 b16 g16 b16 e'16 b16 g16 b16"
     V2[25 + i] = THUMB[i]

@@ -155,7 +155,7 @@ vDeux = {
   a,8-> a8 a,8 a,8-> a8 a,8 |
   f4\mf e8 d4. |
   e4 f8 a,4. |
-  bes,4 c8 d4 e8 |
+  b,4 c8 d4 e8 |
   f4. a4. |
   g4 f8 e4. |
   d4 cis8 d4. |

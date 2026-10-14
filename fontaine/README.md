@@ -28,7 +28,11 @@ andalouse en rasgueado) ; une fin en harmoniques, comme suspendue.
   case X, mi sur la 6ᵉ corde en case XIV), pour que cette couleur ressorte ;
 - dans la partie B, le thème revient **en mineur, joué au pouce dans les basses** (m. 25–30), tandis
   que les doigts répètent les trois cordes aiguës à vide (sol, si, mi) : la texture de la partie A est
-  renversée, la mélodie en bas et la résonance en haut ;
+  renversée, la mélodie en bas et la résonance en haut. Ce « plafond » immobile ne suit pas
+  l'harmonie : c'est la mélodie du pouce qui, en bougeant dessous, change le sens des trois mêmes
+  notes. Le si bécarre fait entendre ré en **dorien** (m. 25), puis la mineur, un accord de fa avec
+  quarte augmentée (m. 28), un sol majeur (m. 29), et la septième de dominante de la au moment où le
+  pouce passe par do♯ (m. 30) ;
 - la reprise (A′) présente la même mélodie et la même harmonie qu'en A, mais en **trémolo** (p a m i) :
   le pouce garde la basse et le début de chaque arpège ;
 - la coda rejoue la tête du thème entièrement en **harmoniques naturelles** (cases XII, VII, V et IV) ;
