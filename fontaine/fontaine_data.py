@@ -91,13 +91,13 @@ SHAPES = {
     1: (D_HI, ("a,", "d", "fis'", "a'")),
     2: (A_HI, ("a,", "a", "cis'", "e'")),
     3: (BM, G_HI),
-    4: (D_HI, ("d,", "a,", "d'", "b")),
+    4: (D_HI, ("d,", "fis'", "a'", "d''")),     # sommet : accord complet en position XIV
     5: (G_HI, E_MIN),
     6: (BM, G_HI),
     7: (("a,", "d", "g", "e'"), A_HI),
     8: (D_HI, ("d,", "a,", "d", "fis'")),
     9: (D_HI, ("a,", "d", "fis'", "a'")),
-    10: (A_HI, ("a,", "d", "d'", "b")),
+    10: (A_HI, ("a,", "fis'", "a'", "d''")),
     11: (("d,", "e'", "gis'", "b'"), ("d,", "e'", "gis'", "b'")),   # mi majeur sur pédale de ré : couleur lydienne
     12: (D_HI, ("d,", "d", "fis'", "b")),
     13: (G_HI, E_MIN7),

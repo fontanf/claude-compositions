@@ -65,11 +65,14 @@ cases au-delà de XII sur les trois cordes graves. Les positions principales qu'
 | 2 (2ᵉ moitié), 7 (1ʳᵉ moitié) | V | la majeur en position V, mélodie sur la chanterelle case V |
 | 3, 6 (1ʳᵉ moitié) | VII–IX | si grave sur la **6ᵉ corde case IX** (grâce à l'accord en ré), si à vide au milieu |
 | 3, 5, 6, 13 (sol) | X–XII | sol sur la 5ᵉ corde case X, ré (4ᵉ) et sol (3ᵉ) case XII, si à vide |
-| 4, 10 (2ᵉ moitié) | XII–XVII | le sommet : la aigu à la case XVII, ré case XII sur la 4ᵉ corde, basses et si à vide |
+| 4, 10 (2ᵉ moitié) | XIV–XVII | le sommet : accord de ré complet sous le la aigu (case XVII) — fa♯ sur la 4ᵉ corde case XVI, la (3ᵉ) XIV, ré (2ᵉ) XV |
 | 5 (2ᵉ moitié) | XII–XIV | mi mineur : mi grave sur la 6ᵉ corde case XIV, mi (4ᵉ) case XIV, sol et si à vide |
 | 11 | XII–XVI | mi majeur sur basse de ré : mi (4ᵉ case XIV), sol♯ (3ᵉ case XIII), si (2ᵉ case XII) |
 
 Points délicats :
+- **Sommet des m. 4, 10 et de leurs reprises en trémolo (m. 38, 44)** : position XIV–XVII, avec le fa♯ en
+  case XVI de la 4ᵉ corde, au-dessus de la caisse. C'est la position la plus inconfortable de la pièce,
+  mais c'est le seul moyen de garder un accord complet sous la note la plus haute de la mélodie.
 - **Trémolo (m. 35–50)** : à noire pointée = 52, soit environ dix notes par seconde ; la mélodie reste sur
   la chanterelle, le pouce joue les basses et les cordes graves de l'arpège.
 - **Liés de B** : tous les liés tirent vers la chanterelle à vide, la main gauche monte jusqu'à la case X

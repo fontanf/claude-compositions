@@ -132,13 +132,13 @@ vDeux = {
   d,16\pp d16 fis'16 a'16 fis'16 d16 a,16 d16 fis'16 a'16 fis'16 d16 |
   a,16 cis'16 e'16 a'16 e'16 cis'16 a,16 a16 cis'16 e'16 cis'16 a16 |
   b,16 fis16 d'16 b16 d'16 fis16 g16 d'16 b16 g'16 b16 d'16 |
-  d,16 d16 fis'16 a'16 fis'16 d16 d,16 a,16 d'16 b16 d'16 a,16 |
+  d,16 d16 fis'16 a'16 fis'16 d16 d,16 fis'16 a'16 d''16 a'16 fis'16 |
   g16 d'16 b16 g'16 b16 d'16 e16 g16 b16 e'16 b16 g16 |
   b,16 fis16 d'16 b16 d'16 fis16 g16 d'16 b16 g'16 b16 d'16 |
   a,16 d16 g16 e'16 g16 d16 a,16 cis'16 e'16 a'16 e'16 cis'16 |
   d,16 d16 fis'16 a'16 fis'16 d16 d,16 a,16 d16 fis'16 d16 a,16 |
   d,16 d16 fis'16 a'16 fis'16 d16 a,16 d16 fis'16 a'16 fis'16 d16 |
-  a,16 cis'16 e'16 a'16 e'16 cis'16 a,16 d16 d'16 b16 d'16 d16 |
+  a,16 cis'16 e'16 a'16 e'16 cis'16 a,16 fis'16 a'16 d''16 a'16 fis'16 |
   d,16 e'16 gis'16 b'16 gis'16 e'16 d,16 e'16 gis'16 b'16 gis'16 e'16 |
   d,16 d16 fis'16 a'16 fis'16 d16 d,16 d16 fis'16 b16 fis'16 d16 |
   g16 d'16 b16 g'16 b16 d'16 e16 g16 b16 d'16 b16 g16 |
@@ -166,13 +166,13 @@ vDeux = {
   d,8\pp d8 fis'8 a,8 d8 fis'8 |
   a,8 cis'8 e'8 a,8 a8 cis'8 |
   b,8 fis8 d'8 g8 d'8 b8 |
-  d,8 d8 fis'8 d,8 a,8 d'8 |
+  d,8 d8 fis'8 d,8 fis'8 a'8 |
   g8 d'8 b8 e8 g8 b8 |
   b,8 fis8 d'8 g8 d'8 b8 |
   a,8 d8 g8 a,8 cis'8 e'8 |
   d,8 d8 fis'8 d,8 a,8 d8 |
   d,8 d8 fis'8 a,8 d8 fis'8 |
-  a,8 cis'8 e'8 a,8 d8 d'8 |
+  a,8 cis'8 e'8 a,8 fis'8 a'8 |
   d,8 e'8 gis'8 d,8 e'8 gis'8 |
   d,8 d8 fis'8 d,8 d8 fis'8 |
   g8 d'8 b8 e8 g8 b8 |
