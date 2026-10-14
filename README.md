@@ -18,6 +18,7 @@ le fichier MIDI, la source LilyPond et les scripts qui permettent de tout régé
 | [Fontaine](fontaine/) | guitare seule (6ᵉ corde en ré) | 1′50 | [PDF](fontaine/fontaine.pdf) | [MP3](fontaine/fontaine.mp3) |
 | [Le Phare](le-phare/) | guitare seule | 2′45 | [PDF](le-phare/phare.pdf) | [MP3](le-phare/phare.mp3) |
 | [Vertige](vertige/) | guitare seule | 1′35 | [PDF](vertige/vertige.pdf) | [MP3](vertige/vertige.mp3) |
+| [Accord](accord/) | guitare seule | 2′10 | [PDF](accord/accord.pdf) | [MP3](accord/accord.mp3) |
 
 ### Fugue en do mineur
 
@@ -72,6 +73,12 @@ harmonique. Le phare, deux harmoniques sans tierce, revient entre chaque partie.
 Toccata pour guitare en fa♯ mineur : un thème au pouce en rythme 3+3+2, sous une pédale continue des
 cordes de si et de mi à vide (qui appartiennent à tous les accords de la gamme). Développement sur un
 cycle de tierces mineures en rasgueado, trio en tierces en la majeur, retour du thème en octaves.
+
+### Accord
+
+Pour guitare seule, pensée en sonorités plutôt qu'en tonalité : une note jouée sur quatre cordes, ses
+voisines qui s'écartent jusqu'à l'accord des cordes à vide, cet accord rejoué en harmoniques à quatre
+hauteurs, le corps de l'instrument (étouffés, tambora, golpe), puis la note seule qui s'éteint.
 
 ## Régénérer une pièce
 
