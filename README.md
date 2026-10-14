@@ -16,6 +16,7 @@ le fichier MIDI, la source LilyPond et les scripts qui permettent de tout régé
 | [Engrenages](engrenages/) | orchestre à plectres : mandolines 1 et 2, mandole ténor, guitare | 2′05 | [conducteur](engrenages/engrenages.pdf) · parties : [Md. 1](engrenages/engrenages-mandolineI.pdf), [Md. 2](engrenages/engrenages-mandolineII.pdf), [mandole](engrenages/engrenages-mandole.pdf), [guitare](engrenages/engrenages-guitare.pdf) | [MP3](engrenages/engrenages.mp3) |
 | [Ce qui reste](ce-qui-reste/) | orchestre à plectres : mandolines 1 et 2, mandole ténor, guitare | 2′35 | [conducteur](ce-qui-reste/ce_qui_reste.pdf) · parties : [Md. 1](ce-qui-reste/ce_qui_reste-mandolineI.pdf), [Md. 2](ce-qui-reste/ce_qui_reste-mandolineII.pdf), [mandole](ce-qui-reste/ce_qui_reste-mandole.pdf), [guitare](ce-qui-reste/ce_qui_reste-guitare.pdf) | [MP3](ce-qui-reste/ce_qui_reste.mp3) |
 | [Fontaine](fontaine/) | guitare seule (6ᵉ corde en ré) | 1′50 | [PDF](fontaine/fontaine.pdf) | [MP3](fontaine/fontaine.mp3) |
+| [Le Phare](le-phare/) | guitare seule | 2′45 | [PDF](le-phare/phare.pdf) | [MP3](le-phare/phare.mp3) |
 
 ### Fugue en do mineur
 
@@ -57,6 +58,13 @@ Pour guitare classique seule, niveau avancé. Une mélodie en ré majeur entendu
 campanella sur les cordes à vide, en mineur au pouce sous une partie centrale rapide (liés, rasgueado
 sur la cadence andalouse), puis en trémolo ; coda en harmoniques naturelles. La jouabilité de chaque
 position a été vérifiée par programme.
+
+### Le Phare
+
+Pour guitare classique seule, dramatique. Un motif — une sixte mineure qui monte, un demi-ton qui
+retombe — traverse trois langages : un thème tonal en mi mineur qui s'égare par tritons, une tempête
+atonale (accords en quartes glissés, tambora, rasgueado phrygien), puis le thème en mi majeur
+harmonique. Le phare, deux harmoniques sans tierce, revient entre chaque partie.
 
 ## Régénérer une pièce
 
