@@ -111,7 +111,9 @@ def solve(pitches):
         ok, span = feasible(combo)
         if not ok:
             continue
-        cost = (span, sum(f for _, f in combo))
+        # écart réduit, position basse, et pas de cases au-delà de XII sur les cordes graves (au-dessus de la caisse)
+        hard = sum(1 for s_, f in combo if s_ <= 2 and f > 12)
+        cost = (1.5 * span + max(f for _, f in combo) + 4 * hard, sum(f for _, f in combo))
         if best is None or cost < best[0]:
             best = (cost, dict(zip(pitches, combo)))
     return best and best[1]

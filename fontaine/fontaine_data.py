@@ -82,23 +82,25 @@ MEL = {
     13: "g''4 fis''8 e''4 d''8", 14: "cis''4 d''8 e''4.", 15: "fis''4. e''4.", 16: "d''4. r4.",
 }
 D_HI = ("d,", "d", "fis'", "a'")      # ré, la et fa# en position X, ré à vide
-G_OPEN = ("d,", "d", "g", "b")        # sol sur pédale de ré : tout à vide
+G_HI = ("g", "d'", "b", "g'")         # sol majeur : sol sur la 5e corde (case X), si à vide
+E_MIN = ("e", "g", "b", "e'")         # mi mineur : mi sur la 6e corde (case XIV), sol et si à vide
+E_MIN7 = ("e", "g", "b", "d'")
 BM = ("b,", "fis", "d'", "b")         # si mineur, si grave sur la 6e corde (case IX)
 A_HI = ("a,", "cis'", "e'", "a'")     # la majeur en position IX
 SHAPES = {
     1: (D_HI, ("a,", "d", "fis'", "a'")),
     2: (A_HI, ("a,", "a", "cis'", "e'")),
-    3: (BM, G_OPEN),
-    4: (D_HI, ("d,", "fis'", "a'", "d''")),
-    5: (G_OPEN, G_OPEN),
-    6: (BM, G_OPEN),
+    3: (BM, G_HI),
+    4: (D_HI, ("d,", "a,", "d'", "b")),
+    5: (G_HI, E_MIN),
+    6: (BM, G_HI),
     7: (("a,", "d", "g", "e'"), A_HI),
     8: (D_HI, ("d,", "a,", "d", "fis'")),
     9: (D_HI, ("a,", "d", "fis'", "a'")),
-    10: (A_HI, ("a,", "fis'", "a'", "d''")),
+    10: (A_HI, ("a,", "d", "d'", "b")),
     11: (("d,", "e'", "gis'", "b'"), ("d,", "e'", "gis'", "b'")),   # mi majeur sur pédale de ré : couleur lydienne
     12: (D_HI, ("d,", "d", "fis'", "b")),
-    13: (G_OPEN, G_OPEN),
+    13: (G_HI, E_MIN7),
     14: (("a,", "cis'", "e'", "g'"), A_HI),
     15: (("a,", "d", "fis'", "a'"), ("a,", "cis'", "e'", "g'")),
     16: (D_HI, ("d,", "a,", "d", "a")),

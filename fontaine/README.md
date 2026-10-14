@@ -21,8 +21,11 @@ andalouse en rasgueado) ; une fin en harmoniques, comme suspendue.
 **Pour les auditeurs avertis :**
 - la partie A est écrite en **campanella** : la main gauche joue la mélodie dans l'aigu (positions IX à
   XVII) pendant que les arpèges utilisent au maximum les cordes à vide, qui continuent de sonner sous
-  les notes frettées ; l'harmonie se fait souvent sur la pédale de ré grave (6ᵉ corde à vide), avec
-  une couleur lydienne à la m. 11 (mi majeur sur basse de ré) ;
+  les notes frettées ;
+- le ré grave à vide (6ᵉ corde) ne sert de basse que sous les accords de ré, avec une seule exception
+  voulue : à la m. 11, un accord de mi majeur sur ce ré grave donne une couleur lydienne, un instant
+  en suspens. Les accords de sol et de mi mineur ont leur vraie fondamentale (sol sur la 5ᵉ corde en
+  case X, mi sur la 6ᵉ corde en case XIV), pour que cette couleur ressorte ;
 - dans la partie B, le thème revient **en mineur, joué au pouce dans les basses** (m. 25–30), tandis
   que les doigts répètent les trois cordes aiguës à vide (sol, si, mi) : la texture de la partie A est
   renversée, la mélodie en bas et la résonance en haut ;
@@ -48,16 +51,18 @@ La jouabilité a été vérifiée automatiquement : pour chaque demi-mesure de A
 une façon de tenir l'arpège et la note de mélodie sur six cordes distinctes, avec un écart d'au plus
 quatre cases (cinq au-delà de la case VII), au plus quatre doigts, et des barrés qui ne passent pas
 sur une corde à vide devant sonner. Pour B et la coda, il vérifie chaque attaque avec ce qui sonne
-déjà. Les positions principales qu'il propose :
+déjà. Parmi les solutions possibles, il préfère un écart réduit, une position basse, et évite les
+cases au-delà de XII sur les trois cordes graves. Les positions principales qu'il propose :
 
 | Mesures | Position | Remarque |
 |---|---|---|
 | 1, 8, 9, 12, 16 | X | ré, fa♯ et la sur cordes 3 et 2 (cases X–XI), ré grave et ré à vide |
 | 2 (1ʳᵉ moitié), 7 (2ᵉ moitié), 14 | IX | la majeur : do♯ (4ᵉ corde), mi (3ᵉ), la (2ᵉ) |
 | 2 (2ᵉ moitié), 7 (1ʳᵉ moitié) | V | la majeur en position V, mélodie sur la chanterelle case V |
-| 3, 6 | VII–IX | si grave sur la **6ᵉ corde case IX** (grâce à l'accord en ré), si à vide au milieu |
-| 4, 10 | XIV–XVII | le sommet : la aigu à la case XVII |
-| 5, 13 | — | sol/ré : toutes les cordes de l'arpège à vide, la main gauche ne fait que la mélodie |
+| 3, 6 (1ʳᵉ moitié) | VII–IX | si grave sur la **6ᵉ corde case IX** (grâce à l'accord en ré), si à vide au milieu |
+| 3, 5, 6, 13 (sol) | X–XII | sol sur la 5ᵉ corde case X, ré (4ᵉ) et sol (3ᵉ) case XII, si à vide |
+| 4, 10 (2ᵉ moitié) | XII–XVII | le sommet : la aigu à la case XVII, ré case XII sur la 4ᵉ corde, basses et si à vide |
+| 5 (2ᵉ moitié) | XII–XIV | mi mineur : mi grave sur la 6ᵉ corde case XIV, mi (4ᵉ) case XIV, sol et si à vide |
 | 11 | XII–XVI | mi majeur sur basse de ré : mi (4ᵉ case XIV), sol♯ (3ᵉ case XIII), si (2ᵉ case XII) |
 
 Points délicats :
