@@ -34,7 +34,7 @@ def parse_voice(bars, voice):
     for b in range(1, NBARS + 1):
         length = F(METER[b][0]).limit_denominator(8)
         bt = F(0)
-        for tok in re.findall(r"<[^>]+>\S*|\S+", bars[b]):
+        for k_tok, tok in enumerate(re.findall(r"<[^>]+>\S*|\S+", bars[b])):
             m = TOKEN.match(tok)
             if not m:
                 sys.exit(f"jeton invalide {tok!r} mesure {b}")
@@ -62,7 +62,7 @@ def parse_voice(bars, voice):
                 else:
                     notes.append(dict(start=starts[b] + bt, dur=d, pitches=ps, level=level, accent="->" in post,
                                       stacc="-." in post, bar=b, pos=bt, voice=voice, harmonic=harmonic,
-                                      strum="\\arpeggio" in post, slurred=in_slur))
+                                      strum="\\arpeggio" in post, slurred=in_slur, tok=k_tok))
                 if "(" in post:
                     in_slur = True
                 if ")" in post:
@@ -185,6 +185,9 @@ def voice_def(name, bars):
 
 
 def write_ly(path):
+    import phare_data as data
+    from doigtes import annotate
+    A1, A2 = annotate(sys.modules[__name__], data)  # partition avec doigtés
     staff = ('\\new Staff \\with { instrumentName = "Guitare" midiInstrument = "acoustic guitar (nylon)" } '
              '<< \\global \\new Voice { \\voiceOne \\vUn } \\new Voice { \\voiceTwo \\vDeux } >>')
     with open(path, "w") as f:
@@ -204,8 +207,8 @@ global = {{
   {global_music()}
 }}
 
-{voice_def("vUn", V1)}
-{voice_def("vDeux", V2)}
+{voice_def("vUn", A1)}
+{voice_def("vDeux", A2)}
 \\score {{
   {staff}
   \\layout {{ }}

@@ -84,6 +84,24 @@ entre le dessus et la basse. Cette relecture a conduit à :
   avec la grave en case V de la 6ᵉ corde (m. 45), do augmenté avec do grave en case VIII de la 6ᵉ corde
   (m. 47).
 
+## Doigtés
+
+La partition indique les doigtés de main gauche : chiffres **1 à 4** pour les doigts, chiffres
+**cerclés** pour les cordes, **C** (barré) ou **½C** (demi-barré) suivi de la case en chiffres romains.
+Ils sont déduits de la répartition corde/case trouvée par le vérificateur (`doigtes.py`) :
+- un doigt par case à partir de la case la plus basse de la position, barré quand plusieurs notes
+  partagent cette case sans corde à vide entre elles ;
+- dans les arpèges, la position est tenue pendant toute la demi-mesure et les notes de mélodie s'y
+  ajoutent ; dans les traits, les notes sont regroupées en positions de quatre cases au plus ;
+- la corde n'est indiquée que lorsque la note n'est pas jouée à sa case la plus basse possible, et
+  les cordes à vide ne sont pas marquées ;
+- le doigté et la corde figurent à la première apparition d'une note dans une position ; le barré
+  n'est indiqué que lorsqu'il change.
+
+Ces doigtés sont calculés, pas éprouvés à l'instrument : ils donnent une solution jouable et
+cohérente, que chacun adaptera à sa main. La main droite n'est pas indiquée (sauf le trémolo p a m i
+et le pouce, décrits plus haut).
+
 ## Le son
 
 L'audio est produit par `synth_phare.py`, le même modèle de corde pincée que pour

@@ -49,7 +49,7 @@ andalouse en rasgueado) ; une fin en harmoniques, comme suspendue.
 | 35–50 | A′ — *Tremolo, cantabile* | La mélodie de A en trémolo |
 | 51–56 | Coda — *Lontano* | La tête du thème en harmoniques naturelles, accord final arpégé |
 
-## Doigtés et positions
+## Doigtés de la partition et positions
 
 La jouabilité a été vérifiée automatiquement : pour chaque demi-mesure de A et A′, le programme cherche
 une façon de tenir l'arpège et la note de mélodie sur six cordes distinctes, avec un écart d'au plus
@@ -81,6 +81,24 @@ Points délicats :
 - **Harmonique case IV** (m. 53, 5ᵉ corde) : effleurer très légèrement, un peu avant la frette.
 - **m. 34** : le trait descendant (la – sol – fa – mi – ré – do♯) se joue lié sur la chanterelle,
   en ralentissant vers le trémolo.
+
+## Doigtés de la partition
+
+La partition indique les doigtés de main gauche : chiffres **1 à 4** pour les doigts, chiffres
+**cerclés** pour les cordes, **C** (barré) ou **½C** (demi-barré) suivi de la case en chiffres romains.
+Ils sont déduits de la répartition corde/case trouvée par le vérificateur (`doigtes.py`) :
+- un doigt par case à partir de la case la plus basse de la position, barré quand plusieurs notes
+  partagent cette case sans corde à vide entre elles ;
+- dans les arpèges, la position est tenue pendant toute la demi-mesure et les notes de mélodie s'y
+  ajoutent ; dans les traits, les notes sont regroupées en positions de quatre cases au plus ;
+- la corde n'est indiquée que lorsque la note n'est pas jouée à sa case la plus basse possible, et
+  les cordes à vide ne sont pas marquées ;
+- le doigté et la corde figurent à la première apparition d'une note dans une position ; le barré
+  n'est indiqué que lorsqu'il change.
+
+Ces doigtés sont calculés, pas éprouvés à l'instrument : ils donnent une solution jouable et
+cohérente, que chacun adaptera à sa main. La main droite n'est pas indiquée (sauf le trémolo p a m i
+et le pouce, décrits plus haut).
 
 ## Le son
 
