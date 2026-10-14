@@ -86,12 +86,11 @@ G_HI = ("g", "d'", "b", "g'")         # sol majeur : sol sur la 5e corde (case X
 E_MIN = ("e", "g", "b", "e'")         # mi mineur : mi sur la 6e corde (case XIV), sol et si à vide
 E_MIN7 = ("e", "g", "b", "d'")
 BM = ("b,", "fis", "d'", "b")         # si mineur, si grave sur la 6e corde (case IX)
-BM_D = ("d", "fis", "d'", "b")        # si mineur sur sa tierce (évite les octaves parallèles m. 2-3)
 A_HI = ("a,", "cis'", "e'", "a'")     # la majeur en position IX
 SHAPES = {
     1: (D_HI, ("a,", "d", "fis'", "a'")),
-    2: (A_HI, ("a,", "a", "cis'", "e'")),
-    3: (BM_D, G_HI),
+    2: (A_HI, ("cis", "e", "a", "e'")),        # la sur sa tierce : la basse descend do# - si (m. 3)
+    3: (BM, G_HI),
     4: (D_HI, ("d,", "fis'", "a'", "d''")),     # sommet : accord complet en position XIV
     5: (G_HI, E_MIN),
     6: (BM, G_HI),

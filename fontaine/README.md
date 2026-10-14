@@ -62,9 +62,9 @@ cases au-delà de XII sur les trois cordes graves. Les positions principales qu'
 |---|---|---|
 | 1, 8, 9, 12, 16 | X | ré, fa♯ et la sur cordes 3 et 2 (cases X–XI), ré grave et ré à vide |
 | 2 (1ʳᵉ moitié), 7 (2ᵉ moitié), 14 | IX | la majeur : do♯ (4ᵉ corde), mi (3ᵉ), la (2ᵉ) |
-| 2 (2ᵉ moitié), 7 (1ʳᵉ moitié) | V | la majeur en position V, mélodie sur la chanterelle case V |
-| 3 (1ʳᵉ moitié) | VII | si mineur sur sa tierce (ré à vide) : les voix extrêmes vont en sens contraire |
-| 6 (1ʳᵉ moitié) | VII–IX | si grave sur la **6ᵉ corde case IX** (grâce à l'accord en ré), si à vide au milieu |
+| 2 (2ᵉ moitié) | II–V | la majeur sur sa tierce : do♯ sur la 5ᵉ corde case IV, mi et la case II, mi et la (mélodie) case V |
+| 7 (1ʳᵉ moitié) | V | la avec quarte suspendue en position V, mélodie sur la chanterelle case V |
+| 3, 6 (1ʳᵉ moitié) | VII–IX | si grave sur la **6ᵉ corde case IX** (grâce à l'accord en ré), si à vide au milieu |
 | 3, 5, 6, 13 (sol) | X–XII | sol sur la 5ᵉ corde case X, ré (4ᵉ) et sol (3ᵉ) case XII, si à vide |
 | 4, 10 (2ᵉ moitié) | XIV–XVII | le sommet : accord de ré complet sous le la aigu (case XVII) — fa♯ sur la 4ᵉ corde case XVI, la (3ᵉ) XIV, ré (2ᵉ) XV |
 | 5 (2ᵉ moitié) | XII–XIV | mi mineur : mi grave sur la 6ᵉ corde case XIV, mi (4ᵉ) case XIV, sol et si à vide |
