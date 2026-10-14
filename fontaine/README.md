@@ -49,7 +49,7 @@ andalouse en rasgueado) ; une fin en harmoniques, comme suspendue.
 | 35–50 | A′ — *Tremolo, cantabile* | La mélodie de A en trémolo |
 | 51–56 | Coda — *Lontano* | La tête du thème en harmoniques naturelles, accord final arpégé |
 
-## Doigtés de la partition et positions
+## Positions principales
 
 La jouabilité a été vérifiée automatiquement : pour chaque demi-mesure de A et A′, le programme cherche
 une façon de tenir l'arpège et la note de mélodie sur six cordes distinctes, avec un écart d'au plus
