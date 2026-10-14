@@ -15,6 +15,7 @@ le fichier MIDI, la source LilyPond et les scripts qui permettent de tout régé
 | [Lanternes](lanternes/) | orchestre à plectres : mandolines 1 et 2, mandole ténor, guitare | 3′05 | [conducteur](lanternes/lanternes.pdf) · parties : [Md. 1](lanternes/lanternes-mandolineI.pdf), [Md. 2](lanternes/lanternes-mandolineII.pdf), [mandole](lanternes/lanternes-mandole.pdf), [guitare](lanternes/lanternes-guitare.pdf) | [MP3](lanternes/lanternes.mp3) |
 | [Engrenages](engrenages/) | orchestre à plectres : mandolines 1 et 2, mandole ténor, guitare | 2′05 | [conducteur](engrenages/engrenages.pdf) · parties : [Md. 1](engrenages/engrenages-mandolineI.pdf), [Md. 2](engrenages/engrenages-mandolineII.pdf), [mandole](engrenages/engrenages-mandole.pdf), [guitare](engrenages/engrenages-guitare.pdf) | [MP3](engrenages/engrenages.mp3) |
 | [Ce qui reste](ce-qui-reste/) | orchestre à plectres : mandolines 1 et 2, mandole ténor, guitare | 2′35 | [conducteur](ce-qui-reste/ce_qui_reste.pdf) · parties : [Md. 1](ce-qui-reste/ce_qui_reste-mandolineI.pdf), [Md. 2](ce-qui-reste/ce_qui_reste-mandolineII.pdf), [mandole](ce-qui-reste/ce_qui_reste-mandole.pdf), [guitare](ce-qui-reste/ce_qui_reste-guitare.pdf) | [MP3](ce-qui-reste/ce_qui_reste.mp3) |
+| [Fontaine](fontaine/) | guitare seule (6ᵉ corde en ré) | 1′50 | [PDF](fontaine/fontaine.pdf) | [MP3](fontaine/fontaine.mp3) |
 
 ### Fugue en do mineur
 
@@ -49,6 +50,13 @@ Une pièce personnelle, sur la mémoire telle que je la vis : un thème est éno
 en plus (ses notes principales, une note par mesure, son rythme seul, un seul intervalle joué sur deux
 cordes à vide), et une mélodie neuve se reconstruit à partir de ce qui reste. Le trémolo, seule façon
 de tenir une note sur une mandoline, y devient la capacité de garder quelque chose.
+
+### Fontaine
+
+Pour guitare classique seule, niveau avancé. Une mélodie en ré majeur entendue trois fois : en
+campanella sur les cordes à vide, en mineur au pouce sous une partie centrale rapide (liés, rasgueado
+sur la cadence andalouse), puis en trémolo ; coda en harmoniques naturelles. La jouabilité de chaque
+position a été vérifiée par programme.
 
 ## Régénérer une pièce
 
